@@ -15,6 +15,7 @@ public class MainDrive {
 		
 		boolean isPrimeNumber = true;
 		
+		int prime =0;
 		
 //		입력한 숫자직전까지 반복
 		for(int i=1; i<num; i++) {
@@ -25,8 +26,13 @@ public class MainDrive {
 				if((num-i) % j ==0) {
 //					소수가 아니다.
 					isPrimeNumber = false;
+					break;
 				}
 				
+			}
+			
+			if(isPrimeNumber) {
+				prime = num-i;
 			}
 			
 		}
