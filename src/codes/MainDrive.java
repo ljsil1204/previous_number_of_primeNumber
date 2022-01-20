@@ -33,7 +33,10 @@ public class MainDrive {
 			
 			if(isPrimeNumber) {
 				prime = num-i;
+				break;
 			}
+			
+			isPrimeNum = true;
 			
 		}
 		
