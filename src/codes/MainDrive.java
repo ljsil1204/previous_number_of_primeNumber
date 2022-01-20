@@ -10,7 +10,7 @@ public class MainDrive {
 		
 		Scanner myScanner = new Scanner(System.in);
 		
-		System.out.println("숫자 입력 : ");
+		System.out.print("숫자 입력 : ");
 		int num = myScanner.nextInt();
 		
 		boolean isPrimeNumber = true;
