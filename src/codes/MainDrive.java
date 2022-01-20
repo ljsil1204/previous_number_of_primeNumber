@@ -36,9 +36,11 @@ public class MainDrive {
 				break;
 			}
 			
-			isPrimeNum = true;
+			isPrimeNumber = true;
 			
 		}
+		
+		System.out.println("제일 큰 소수 : " + prime);
 		
 	}
 	
