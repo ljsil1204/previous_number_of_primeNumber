@@ -15,10 +15,10 @@ public class MainDrive {
 		
 		boolean isPrimeNumber = true;
 		
-		int prime =0;
+		int prime = 0;
 		
 //		입력한 숫자직전까지 반복
-		for(int i=1; i<num; i++) {
+		for(int i=0; i<num; i++) {
 			
 //			해당 숫자 소수 판별 
 			for(int j=2; j<num/2; j++) {
